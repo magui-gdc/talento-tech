@@ -5,14 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>La tienda de Gus</title>
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="./css/estilos.css">
+        <!-- iconos -->
+        <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
+
+        <!-- iconos -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     </head>
-    <body>
-        <header>
+    <body>  
+        <header class="header">
             <a href="#">
-                <img src="./assets/img/1.jpg" alt="Foto Magui y Gus" width="50%">
-            </a>        
-            <nav>
+                <img class="logo" src="./assets/img/logo.webp" alt="Logo">
+            </a>      
+            <nav class="nav">
                 <ul>
                     <li><a href="#">Inicio</a></li>
                     <li><a href="\pages\galeria.html">Galeria</a></li>
@@ -25,15 +32,95 @@
 
         <main>
             <section>
-                <h1>Inicio</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eos illo libero quis! Recusandae, hic, tenetur quia sint cum officia commodi est corrupti qui quasi vel incidunt, at inventore ea.</p>
-                <a href=""></a>
+                <h1>hola</h1>
             </section>
         </main>
 
-        <footer>
-
+        <!--
+        <footer class="footer">
+            <nav>
+                <ul>
+                    <li><a href="">Sobre Nosotros</a></li>
+                    <li><a href="">Política de Privacidad</a></li>
+                    <li><a href="">Términos y Condiciones</a></li>
+                </ul>
+            </nav>
+            <nav>
+                <ul>
+                    <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
+            </nav>
+            <div>
+                <form action="">
+                    <input type="email" placeholder="Tu correo electrónico" id="emailSus" name="emailSus">
+                    <input type="submit" value="Suscribirse">
+                </form>
+            </div>
+            
+            <address>
+                <p>Dirección: Calle Falsa 123, Palermo, Ciudad de Buenos Aires</p>
+                <p>Teléfono: (55) 555-5555</p>
+                <p>Correo electrónico:  contacto@petshop.com</p>
+            </address>
+           
+            <div>
+                <a href="" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <p>2024 PetShop | Todos los derechos reservados</p>
 
         </footer>
+        -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+
+                <!-- Suscripcion -->
+                <div class="footer-section newsletter">
+                    <h3>Recibí nuestra últimas noticias</h3>
+                    <form action="#">
+                        <input type="email" placeholder="Dirección de Email" required>
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            
+                <!-- Social Media Section -->
+                <div class="footer-section social">
+                    <h3>Seguinos en Redes Sociales</h3>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+
+                    <div class="footer-section contact">
+                        <h3>Ponete en contacto</h3>
+                        <p>info@magui.com</p>
+                        <p>+54 011 1234-1234</p>
+                        
+                    </div>
+                </div>
+
+                <!-- Links Section -->
+                <div class="footer-section links">
+                    <h3>Volver Arriba</h3>
+                    <ul>
+                        <li><a href="#">Galería</a></li>
+                        <li><a href="#">Sobre Nosotos</a></li>
+                        <li><a href="#">Contacto</a></li>
+                        <li><a href="#">Carrito</a></li>
+                    </ul>
+                </div>
+            
+            </div>
+        
+            
+        </footer>
+        <!-- Footer Bottom Section -->
+        <div class="footer-bottom">
+            <p>&copy; 2024 MAGAHA Corporation. Todos los derechos reservados.</p>
+        </div>
     </body>
 </html>
