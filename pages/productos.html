@@ -5,15 +5,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>MAGAHA</title>
         <link rel="icon" href="./favicon.ico" type="image/x-icon">
-        <link rel="stylesheet" href="../css/estilos.css">
+        
+        <!-- hojas de estilos -->
+
+        <link rel="stylesheet" href="../css/estilosHyF.css">
+        <link rel="stylesheet" href="../css/estilosProductos.css">
 
         <!-- iconos fontawesome -->
         <script src="https://kit.fontawesome.com/cbbd236219.js" crossorigin="anonymous"></script>
 
         <!-- fonts google -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
     </head>
 
@@ -36,16 +40,36 @@
         </header>
 
         <main>
-        <h1>Galeria</h1>
 
-        <section>
-            <p>Click en la imagen para descargar</p>
-            <a href=""><img src="../assets/img/foto1.jpg" alt="" width="200px"></a>
-            <img src="../assets/img/foto2.jpg" alt="" width="200px">
-            <img src="../assets/img/foto3.jpg" alt="" width="200px">
-        </section>
+            <h1 class="titulo-seccion">Nuestros Productos</h1>
+            <hr class=linea-divisoria>
+            
+            <section class="flexbox-container">
+                <div class="card" style="background-image: url('../assets/img/piano.png');">
+                    <h2>Pianos</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/cuerdas.jpg');">
+                    <h2>Cuerdas</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/vientos.jpg');">
+                    <h2>Vientos</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/percusion.jpg');">
+                    <h2>Percusión</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/guitarras.png');">
+                    <h2>Guitarras</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/teclados.jpg');">
+                    <h2>Teclados</h2>
+                </div>
+                <div class="card" style="background-image: url('../assets/img/baterias.webp');">
+                    <h2>Baterías</h2>
+                </div>
+            </section>            
 
         </main>
+        
         <!-- Footer -->
         <footer class="footer">
             <div class="footer-content">
